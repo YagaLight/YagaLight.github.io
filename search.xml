@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>hexo渲染问题</title>
+    <url>/2024/03/23/02-30-43/</url>
+    <content><![CDATA[<h1 id="hexo博客的主题没有完全渲染到页面上"><a href="#hexo博客的主题没有完全渲染到页面上" class="headerlink" title="hexo博客的主题没有完全渲染到页面上"></a>hexo博客的主题没有完全渲染到页面上</h1><p>  这个问题我在网上找了很多答案，有以下可能：</p>
+<h2 id="1）原因1：你在站点配置文件里的路径url和root没有设置好："><a href="#1）原因1：你在站点配置文件里的路径url和root没有设置好：" class="headerlink" title="1）原因1：你在站点配置文件里的路径url和root没有设置好："></a>1）原因1：你在站点配置文件里的路径url和root没有设置好：</h2><p><img src="/2024/03/23/02-30-43/image001.png"></p>
+<h2 id="2）你的下载的主题文件（如hexo-next）没有放在根目录下的theme文件内"><a href="#2）你的下载的主题文件（如hexo-next）没有放在根目录下的theme文件内" class="headerlink" title="2）你的下载的主题文件（如hexo-next）没有放在根目录下的theme文件内"></a>2）你的下载的主题文件（如hexo-next）没有放在根目录下的theme文件内</h2><p>  （本人是因为这个原因，因为当我在git bash下使用 npm install hexo-theme-next 命令时，系统把NexT安装在了根目录下的node_modules&#x2F;hexo-theme-next，所以需要你把文件夹内的所有文件复制到theme内），经过hexo -c ,-g, -d，等部署到Github上了，打开地址栏输入<a href="https://yourgithubname.github.io/">https://YourGithubName.github.io</a> ，就能看到主题已经渲染到页面上了。</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>002-算法</title>
+    <url>/2025/03/10/12-40-05/</url>
+    <content><![CDATA[<h1 id="算法（2020-01-01）"><a href="#算法（2020-01-01）" class="headerlink" title="算法（2020-01-01）"></a>算法（2020-01-01）</h1><h2 id="做算法学问前的认知"><a href="#做算法学问前的认知" class="headerlink" title="做算法学问前的认知"></a>做算法学问前的认知</h2><h2 id="任务一"><a href="#任务一" class="headerlink" title="任务一"></a>任务一</h2>]]></content>
+      <tags>
+        <tag>算法</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Hello World</title>
     <url>/2024/03/22/02-27-20/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -16,14 +32,6 @@
 <h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
 
 <p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>hexo渲染问题</title>
-    <url>/2024/03/23/02-30-43/</url>
-    <content><![CDATA[<h1 id="hexo博客的主题没有完全渲染到页面上"><a href="#hexo博客的主题没有完全渲染到页面上" class="headerlink" title="hexo博客的主题没有完全渲染到页面上"></a>hexo博客的主题没有完全渲染到页面上</h1><p>  这个问题我在网上找了很多答案，有以下可能：</p>
-<h2 id="1）原因1：你在站点配置文件里的路径url和root没有设置好："><a href="#1）原因1：你在站点配置文件里的路径url和root没有设置好：" class="headerlink" title="1）原因1：你在站点配置文件里的路径url和root没有设置好："></a>1）原因1：你在站点配置文件里的路径url和root没有设置好：</h2><p><img src="/2024/03/23/02-30-43/image001.png"></p>
-<h2 id="2）你的下载的主题文件（如hexo-next）没有放在根目录下的theme文件内"><a href="#2）你的下载的主题文件（如hexo-next）没有放在根目录下的theme文件内" class="headerlink" title="2）你的下载的主题文件（如hexo-next）没有放在根目录下的theme文件内"></a>2）你的下载的主题文件（如hexo-next）没有放在根目录下的theme文件内</h2><p>  （本人是因为这个原因，因为当我在git bash下使用 npm install hexo-theme-next 命令时，系统把NexT安装在了根目录下的node_modules&#x2F;hexo-theme-next，所以需要你把文件夹内的所有文件复制到theme内），经过hexo -c ,-g, -d，等部署到Github上了，打开地址栏输入<a href="https://yourgithubname.github.io/">https://YourGithubName.github.io</a> ，就能看到主题已经渲染到页面上了。</p>
 ]]></content>
   </entry>
 </search>
